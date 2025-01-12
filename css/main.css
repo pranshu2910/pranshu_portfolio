@@ -161,7 +161,7 @@ body#bg-img {
 
 body#bg-img:after {
   content: '';
-  position: absolute;
+  position:fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -479,6 +479,11 @@ main#home h1 {
   color: #333;
 }
 
+.job-card ul {
+  text-align: left;
+  color: #333;
+}
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
@@ -707,5 +712,9 @@ main#home h1 {
     width: 90%;
     padding: 1rem;
     margin: auto;
+  }
+
+  .about-section{
+    background: rgba(73, 73, 73, 0.5);
   }
 }
